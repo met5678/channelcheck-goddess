@@ -1,0 +1,17 @@
+{
+  "name": "channelcheck-goddess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Metcalf <met5678@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "ipc-goddess": "^1.0.1",
+    "nconf": "^0.8.4",
+    "socket.io": "^1.4.5"
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  margin: 10px auto;
+  width: 301px;
+}
+
+.section {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.label {
+  color: #999;
+  text-align: center;
+}
+
+.value {
+  color: #AA3;
+  text-align: center;
+}

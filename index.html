@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>colortest-goddess</title>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="label">Status</div>
+        <div class="value">connected</div>
+      </div>
+      <div class="section">
+        <div class="label">Channels</div>
+        <div class="value">200</div>
+      </div>
+      <div class="section">
+        <div class="label">FPS</div>
+        <div class="value">49.4</div>
+      </div>
+      <div class="section">
+        <input type="radio" checked name="mode" value="rgb"> <span class="label" style="margin-right: 15px">RGB</span>
+        <input type="radio" name="mode" value="brg"> <span class="label" style="margin-right: 15px">BRG</span>
+        <input type="radio" name="mode" value="channels"> <span class="label">Channels</span>
+      </div>
+      <canvas width="301" height="301"></canvas>
+    </div>
+  </body>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/jquery/jquery.min.js"></script>
+  <script src="channels.js"></script>
+</html>
