@@ -68,6 +68,10 @@ function initSocket() {
 }
 
 function processChannels(data) {
+  debugger;
+  if(!data) {
+    return;
+  }
   colors = [];
   if(mode == 'channels') {
     for(var channel = 0; channel<data.length; channel++) {
@@ -89,7 +93,7 @@ function processChannels(data) {
           colors[light] = 'rgb('+r+','+g+','+b + ')';
           break;
         case 'brg':
-          colors[light] = 'rgb('+b+','+r+','+g + ')';
+          colors[light] = 'rgb('+g+','+b+','+r + ')';
           break;
       }
     }

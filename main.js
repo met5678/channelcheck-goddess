@@ -33,6 +33,8 @@ http.listen(3000, function(){
 io.on('connection', function(socket) {
 });
 
+
+
 ipc.on('channels', function(data) {
-  io.emit('channels',data.data);
+  io.emit('channels',data);
 });
